@@ -23,4 +23,13 @@ CLOUDINARY_SECRET = 'enter_cloudinary_secret'
 ```bash
 npm run start
 ```
-   
+
+# API Testing
+Postman workspace with API test cases. The test cases include following tests.
+1. Positive CSV submission
+2. Negative CSV submission 1: Missing S. No 2 (the csv file contains S. No. 1 and 3)
+3. Negative CSV submission 2: Invalid URL
+4. Negative CSV submission 3: Invalid file extension (Completely valid csv file without any extension)
+5. Positive check for status: _Valid JobID need to be entered_.
+
+Click [here](https://www.postman.com/supply-engineer-8483506/workspace/csv-reader-backend) to access postman Workspace.
